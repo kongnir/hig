@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@hig/scripts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Scripts for HIG React components",
   "main": "index.js",
   "repository": "https://github.com/Autodesk/hig",
@@ -9,6 +9,7 @@
   "bin": {
     "hig-scripts-build": "bin/build.js",
     "hig-scripts-lint": "bin/lint.sh",
+    "hig-scripts-test": "bin/test.sh",
     "hig-scripts-release": "bin/release.sh",
     "hig-scripts-is-stable-package": "bin/is-stable-package.js",
     "hig-scripts-ensure-initial-tag": "bin/ensure-initial-tag.js"
